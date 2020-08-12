@@ -1,6 +1,6 @@
 {
   "name": "parcel-modern",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple Parcel based generator with PostCSS, Babel, Sass",
   "main": "generators/index.js",
   "homepage": "https://github.com/seminioni/parcel-modern",

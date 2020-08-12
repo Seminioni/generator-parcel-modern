@@ -1,0 +1,6 @@
+{
+  modules: "<%= useModules %>",
+  "plugins": {
+    "autoprefixer": true
+  }
+}

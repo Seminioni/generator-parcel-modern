@@ -14,7 +14,7 @@ module.exports = class extends Generator {
       author: "",
       devDependencies: {
         "postcss-modules": "latest",
-        autoprefixer: 9.8,
+        autoprefixer: "9.8",
         "@babel/preset-env": "latest",
         "parcel-bundler": "latest",
       },
@@ -84,6 +84,10 @@ module.exports = class extends Generator {
 
   // Install dependencies
   install() {
+    this.installDependencies({
+      npm: true
+    })
+    
     if (this.answers.sass) this.npmInstall("node-sass", { "save-dev": true });
   }
 };

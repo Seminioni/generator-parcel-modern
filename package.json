@@ -1,15 +1,15 @@
 {
-  "name": "parcel-modern",
+  "name": "generator-parcel-modern",
   "version": "0.1.1",
   "description": "Simple Parcel based generator with PostCSS, Babel, Sass",
   "main": "generators/index.js",
-  "homepage": "https://github.com/seminioni/parcel-modern",
+  "homepage": "https://github.com/seminioni/generator-parcel-modern",
   "keywords": [
     "Parcel",
     "ES6",
     "Babel",
     "PostCSS",
-    "Yeoman"
+    "Yeoman generator"
   ],
   "author": {
     "name": "Mike Syomin",

@@ -1,4 +1,4 @@
-# parcel-modern
+# generator-parcel-modern
 > Simple Parcel based generator with PostCSS, Babel, Sass
 
 The goal of this generator is to provide a quick way to scaffold an organized front-end project using the latest technologies, powered by Parcel for an easy zero configuration setup. It has optional CSS Modules and Sass support, and comes with Babel and PostCss with Autoprefixer installed and setup.
@@ -7,12 +7,12 @@ The goal of this generator is to provide a quick way to scaffold an organized fr
 Install Yeoman first, then the generator:
 ```
 npm i -g yo
-npm i -g parcel-modern
+npm i -g generator-parcel-modern
 ```
 
 Generate your project:
 ```
-yo parcel-modern
+yo generator-parcel-modern
 ```
 
 Run it:

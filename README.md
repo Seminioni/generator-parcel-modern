@@ -12,7 +12,7 @@ npm i -g generator-parcel-modern
 
 Generate your project:
 ```
-yo generator-parcel-modern
+yo parcel-modern
 ```
 
 Run it:
